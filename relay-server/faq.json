@@ -1,0 +1,82 @@
+[
+  {
+    "id": "pricing",
+    "question": "How does pricing work?",
+    "keywords": ["price", "pricing", "cost", "plan", "plans", "how much", "fee", "fees", "rate", "subscription"],
+    "answer": "Pricing is customized by account size and use case. Our team will work with you to find the right fit for your organization's needs and budget.",
+    "category": "Pricing/deal question",
+    "routeTo": "AE"
+  },
+  {
+    "id": "integrations",
+    "question": "What integrations do you support?",
+    "keywords": ["integration", "integrations", "connect", "sync", "HubSpot", "Salesforce", "CRM", "API", "webhook"],
+    "answer": "Integrations depend on your plan and implementation requirements. We support a range of CRM and productivity tool integrations. I'll confirm the specific integrations available for your use case and timeline.",
+    "category": "Integration question",
+    "routeTo": "Sales Engineering"
+  },
+  {
+    "id": "sso",
+    "question": "Do you support SSO / single sign-on?",
+    "keywords": ["SSO", "single sign-on", "SAML", "Okta", "Okta", "identity provider", "IdP", "SCIM", "authentication", "login"],
+    "answer": "SSO is supported on enterprise plans. I'll confirm the specific SSO providers we support and the implementation requirements for your team.",
+    "category": "Security/legal/procurement",
+    "routeTo": "Security + Sales Engineering"
+  },
+  {
+    "id": "security-review",
+    "question": "How do you handle security reviews?",
+    "keywords": ["security", "security review", "compliance", "audit", "SOC 2", "SOC2", "GDPR", "data privacy", "penetration test", "infosec", "security questionnaire"],
+    "answer": "Security reviews are handled by our security and legal team. I'll connect you with the right people and share our security documentation, including our SOC 2 report if applicable.",
+    "category": "Security/legal/procurement",
+    "routeTo": "Legal/Security"
+  },
+  {
+    "id": "bugs",
+    "question": "How do I report a bug?",
+    "keywords": ["bug", "error", "broken", "not working", "issue", "problem", "crash", "unexpected behavior", "glitch"],
+    "answer": "To help us resolve this quickly, please share: the page or feature affected, what you expected to happen, what actually happened, your urgency level, and an optional screenshot. This helps us route and prioritize the fix.",
+    "category": "Bug/problem",
+    "routeTo": "Support + Engineering"
+  },
+  {
+    "id": "feature-request",
+    "question": "How do I submit a feature request?",
+    "keywords": ["feature", "feature request", "enhancement", "improvement", "add", "build", "roadmap", "wish list"],
+    "answer": "Feature requests are most helpful when they include: your use case, the business impact, your timeline, and whether this blocks your purchase or renewal. I'll route this to our product team with that context.",
+    "category": "Feature request",
+    "routeTo": "Product"
+  },
+  {
+    "id": "data-export",
+    "question": "Can I export my data?",
+    "keywords": ["export", "download", "data export", "CSV", "backup", "portability", "migrate", "export notes"],
+    "answer": "Data export capabilities depend on your plan. I'll confirm what export formats and options are available for your account.",
+    "category": "General question",
+    "routeTo": "AE + Product"
+  },
+  {
+    "id": "enterprise",
+    "question": "Do you have enterprise plans?",
+    "keywords": ["enterprise", "enterprise plan", "large team", "organization", "procurement", "PO", "purchase order", "contract", "MSA"],
+    "answer": "Yes, we have enterprise plans tailored for larger organizations. These typically include SSO, advanced security controls, dedicated support, and custom pricing. I'll connect you with our enterprise team.",
+    "category": "Pricing/deal question",
+    "routeTo": "AE + Legal"
+  },
+  {
+    "id": "implementation",
+    "question": "How long does implementation take?",
+    "keywords": ["implementation", "onboarding", "setup", "rollout", "timeline", "how long", "deploy", "deployment"],
+    "answer": "Implementation timelines vary by team size and integration complexity. I'll work with you and our implementation team to set realistic expectations for your rollout.",
+    "category": "General question",
+    "routeTo": "AE + Customer Success"
+  },
+  {
+    "id": "trial",
+    "question": "Do you offer a free trial?",
+    "keywords": ["trial", "free trial", "pilot", "POC", "proof of concept", "try", "demo", "evaluation"],
+    "answer": "We offer pilots and proof-of-concept engagements for teams evaluating the product. I'll follow up with specifics on what that looks like for your team.",
+    "category": "Pricing/deal question",
+    "routeTo": "AE"
+  }
+]
