@@ -122,41 +122,6 @@ At least one of `CLAUDE_PROXY_URL` or `ANTHROPIC_API_KEY` must be set. For a pub
 
 ---
 
-## Demo script
-
-1. **Open landing page** at `http://localhost:3000/`
-   - Explain: "Relay has two surfaces — the customer Relay Link and the AE Mac command center."
-
-2. **Click "Open Customer Relay Link"** → `/intake`
-   - "This is what a customer sees after a call."
-
-3. **Submit the HubSpot/SSO demo intake:**
-   - Name: Sarah Chen · Company: TechFlow Inc · Email: sarah@techflow.com
-   - Question: "We're evaluating Relay for our sales team. Do you support HubSpot integration? Also, SSO is required before we can move forward. We're hoping to roll this out in Q3."
-   - Is blocking: "Yes — blocking contract signature"
-   - Category: Integration question · Urgency: Blocking deal
-
-4. **Show the results page** — scroll through output cards
-   - Customer email: references HubSpot and SSO specifically
-   - CRM-ready internal note (`salesforceNote` field): copy and paste
-   - Slack update: paste into Sales Engineering channel
-   - Google Sheet row: the intake can also land in the shared sheet automatically when configured
-   - Next-step tasks: concrete checklist, not generic
-
-5. **Open the Mac menu bar app**
-   - Customer Asks tab shows Sarah Chen's submission automatically
-   - Click "Generate Follow-Up" → Outputs tab loads the same package
-
-6. **Switch to Post-Call Notes tab**
-   - Fill in: Company = Acme Corp, Deal Size = $80k ARR
-   - Paste: "Call with Acme today. They like the product but need SSO, HubSpot sync, and data export. CTO concerned about security. VP Sales wants Q3 rollout. Deal ~$80k ARR."
-   - Click **Analyze & Generate Outputs**
-   - Show: same 7 outputs, from raw notes
-
-7. Wrap up: "Relay replaces 30 minutes of post-call admin — the follow-up email, CRM update, Slack to Sales Eng. One paste, one click."
-
----
-
 ## How Claude is used
 
 Claude is called for multiple flows via `relay-server/claude.js`:
