@@ -11,7 +11,7 @@ Built on top of an open-source macOS menu bar companion foundation and adapted f
 
 The best way to get this running is with Claude Code, as this repo is filled with placeholders (instead of specific keys, workspaces, sheets, etc.)
 
-Once you get Claude running, paste this:
+Once you get Claude running, paste this: 
 
 ```text
 Hi Claude.
@@ -22,9 +22,7 @@ Then read the README.md and CLAUDE.md. I want to get Relay running locally on my
 
 Help me set up everything — the Cloudflare Worker with my own API keys, the proxy URLs, and getting it building in Xcode. Walk me through it.
 ```
-
 Claude Code helped me build Relay from the same instructions! It helped walk through the whole setup and I kept talking to it to explore features, fix bugs, and test!
----
 
 ## What Relay does
 
